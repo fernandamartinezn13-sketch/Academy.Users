@@ -107,6 +107,40 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "Academy.Users.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Academy.Users.Domain": "1.0.0",
+          "Academy.Users.Infrastructure": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Academy.Users.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Academy.Users.Application.dll": {}
+        }
+      },
+      "Academy.Users.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Academy.Users.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Academy.Users.Domain.dll": {}
+        }
+      },
+      "Academy.Users.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Academy.Users.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Academy.Users.Infrastructure.dll": {}
+        }
       }
     }
   },
@@ -473,10 +507,26 @@
         "swashbuckle.aspnetcore.swaggerui.6.6.2.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+    },
+    "Academy.Users.Application/1.0.0": {
+      "type": "project",
+      "path": "../Academy.Users.Application/Academy.Users.Application.csproj",
+      "msbuildProject": "../Academy.Users.Application/Academy.Users.Application.csproj"
+    },
+    "Academy.Users.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Academy.Users.Domain/Academy.Users.Domain.csproj",
+      "msbuildProject": "../Academy.Users.Domain/Academy.Users.Domain.csproj"
+    },
+    "Academy.Users.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../Academy.Users.Infrastructure/Academy.Users.Infrastructure.csproj",
+      "msbuildProject": "../Academy.Users.Infrastructure/Academy.Users.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "Academy.Users.Application >= 1.0.0",
       "Microsoft.AspNetCore.OpenApi >= 8.0.20",
       "Swashbuckle.AspNetCore >= 6.6.2"
     ]
@@ -505,7 +555,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\fmartin5\\OneDrive - Capgemini\\Desktop\\Academy.Users\\Academy.Users.Application\\Academy.Users.Application.csproj": {
+              "projectPath": "C:\\Users\\fmartin5\\OneDrive - Capgemini\\Desktop\\Academy.Users\\Academy.Users.Application\\Academy.Users.Application.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
