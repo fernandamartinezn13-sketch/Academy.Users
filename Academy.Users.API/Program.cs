@@ -1,8 +1,12 @@
+using Academy.Users.Application;
+using Academy.Users.Presentation.Modules;
+
 var builder = WebApplication.CreateBuilder(args);
  
 // Agregar servicios de Swagger
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddApplication();
  
 // Aquí puedes registrar tus servicios de Application, Infrastructure, etc.
 // builder.Services.AddScoped();
@@ -16,12 +20,14 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI(options =>
     {
         options.SwaggerEndpoint("/swagger/v1/swagger.json", "Academy.Products API v1");
-        options.RoutePrefix = string.Empty; // Para que se muestre en la raíz: https://localhost:5001/
+        //options.RoutePrefix = string.Empty; // Para que se muestre en la raíz: https://localhost:5001/
     });
 }
- 
+
+ModulesConfiguration.Configure(app);
+
 app.UseHttpsRedirection();
  
-app.MapGet("/", () => "Academy.Products API - .NET 8");
+//app.MapGet("/", () => "Academy.Products API - .NET 8");
  
 app.Run();

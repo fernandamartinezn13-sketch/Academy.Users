@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\fmartin5\\OneDrive - Capgemini\\Desktop\\Academy.Users\\Academy.Users.Infrastructure\\Academy.Users.Infrastructure.csproj": {}
+    "C:\\Users\\LUISGARC\\OneDrive - Capgemini\\Documents\\VSCodeProjects\\Academy.Users\\Academy.Users.Infrastructure\\Academy.Users.Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\fmartin5\\OneDrive - Capgemini\\Desktop\\Academy.Users\\Academy.Users.Infrastructure\\Academy.Users.Infrastructure.csproj": {
+    "C:\\Users\\LUISGARC\\OneDrive - Capgemini\\Documents\\VSCodeProjects\\Academy.Users\\Academy.Users.Infrastructure\\Academy.Users.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fmartin5\\OneDrive - Capgemini\\Desktop\\Academy.Users\\Academy.Users.Infrastructure\\Academy.Users.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\LUISGARC\\OneDrive - Capgemini\\Documents\\VSCodeProjects\\Academy.Users\\Academy.Users.Infrastructure\\Academy.Users.Infrastructure.csproj",
         "projectName": "Academy.Users.Infrastructure",
-        "projectPath": "C:\\Users\\fmartin5\\OneDrive - Capgemini\\Desktop\\Academy.Users\\Academy.Users.Infrastructure\\Academy.Users.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\fmartin5\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fmartin5\\OneDrive - Capgemini\\Desktop\\Academy.Users\\Academy.Users.Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\LUISGARC\\OneDrive - Capgemini\\Documents\\VSCodeProjects\\Academy.Users\\Academy.Users.Infrastructure\\Academy.Users.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\LUISGARC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\LUISGARC\\OneDrive - Capgemini\\Documents\\VSCodeProjects\\Academy.Users\\Academy.Users.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\fmartin5\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\LUISGARC\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -58,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.414/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\8.0.414/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
