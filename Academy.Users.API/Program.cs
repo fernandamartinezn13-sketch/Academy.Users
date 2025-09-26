@@ -1,3 +1,4 @@
+using Academy.Users.API;
 using Academy.Users.Application;
 using Academy.Users.Infrastructure;
 using Academy.Users.Presentation.Modules;
@@ -28,7 +29,5 @@ if (app.Environment.IsDevelopment())
 ModulesConfiguration.Configure(app);
 
 app.UseHttpsRedirection();
- 
-//app.MapGet("/", () => "Academy.Products API - .NET 8");
  
 app.Run();
