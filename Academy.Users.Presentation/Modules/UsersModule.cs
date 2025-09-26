@@ -16,7 +16,9 @@ public static class UsersModule
         var customerGroup = app.MapGroup(BASE_URL);
 
         customerGroup.MapPost("", CreateCustomer);
-        customerGroup.MapPut("{email}", UpdateUser);
+
+        // Se agrega el método put
+        customerGroup.MapPut("manageUserStatus", UpdateUser);
     }
 
     private static async Task<IResult> CreateCustomer(
@@ -33,6 +35,7 @@ public static class UsersModule
         return Results.Created($"{BASE_URL}{result.Value.UserId}", result.Value);
     }
 
+    // Handler para el método PUT
     private static async Task<IResult> UpdateUser(
         [FromBody] ManagemetUserCommandRequest request,
         ISender sender,
