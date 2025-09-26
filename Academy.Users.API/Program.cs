@@ -1,4 +1,5 @@
 using Academy.Users.Application;
+using Academy.Users.Infrastructure;
 using Academy.Users.Presentation.Modules;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -6,10 +7,10 @@ var builder = WebApplication.CreateBuilder(args);
 // Agregar servicios de Swagger
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+// Add application and infrastructure layers
 builder.Services.AddApplication();
- 
-// Aquí puedes registrar tus servicios de Application, Infrastructure, etc.
-// builder.Services.AddScoped();
+builder.Services.AddInfrastructure(builder.Configuration);
  
 var app = builder.Build();
  

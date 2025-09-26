@@ -10,3 +10,15 @@ C:\Users\LUISGARC\OneDrive - Capgemini\Documents\VSCodeProjects\Academy.Users\Ac
 C:\Users\LUISGARC\OneDrive - Capgemini\Documents\VSCodeProjects\Academy.Users\Academy.Users.Domain\obj\Debug\net8.0\refint\Academy.Users.Domain.dll
 C:\Users\LUISGARC\OneDrive - Capgemini\Documents\VSCodeProjects\Academy.Users\Academy.Users.Domain\obj\Debug\net8.0\Academy.Users.Domain.pdb
 C:\Users\LUISGARC\OneDrive - Capgemini\Documents\VSCodeProjects\Academy.Users\Academy.Users.Domain\obj\Debug\net8.0\ref\Academy.Users.Domain.dll
+C:\Users\DSANVICE\Downloads\Bueno\Academy.Users\Academy.Users.Domain\bin\Debug\net8.0\Academy.Users.Domain.deps.json
+C:\Users\DSANVICE\Downloads\Bueno\Academy.Users\Academy.Users.Domain\bin\Debug\net8.0\Academy.Users.Domain.dll
+C:\Users\DSANVICE\Downloads\Bueno\Academy.Users\Academy.Users.Domain\bin\Debug\net8.0\Academy.Users.Domain.pdb
+C:\Users\DSANVICE\Downloads\Bueno\Academy.Users\Academy.Users.Domain\obj\Debug\net8.0\Academy.Users.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DSANVICE\Downloads\Bueno\Academy.Users\Academy.Users.Domain\obj\Debug\net8.0\Academy.Users.Domain.AssemblyInfoInputs.cache
+C:\Users\DSANVICE\Downloads\Bueno\Academy.Users\Academy.Users.Domain\obj\Debug\net8.0\Academy.Users.Domain.AssemblyInfo.cs
+C:\Users\DSANVICE\Downloads\Bueno\Academy.Users\Academy.Users.Domain\obj\Debug\net8.0\Academy.Users.Domain.csproj.CoreCompileInputs.cache
+C:\Users\DSANVICE\Downloads\Bueno\Academy.Users\Academy.Users.Domain\obj\Debug\net8.0\Academy.Users.Domain.sourcelink.json
+C:\Users\DSANVICE\Downloads\Bueno\Academy.Users\Academy.Users.Domain\obj\Debug\net8.0\Academy.Users.Domain.dll
+C:\Users\DSANVICE\Downloads\Bueno\Academy.Users\Academy.Users.Domain\obj\Debug\net8.0\refint\Academy.Users.Domain.dll
+C:\Users\DSANVICE\Downloads\Bueno\Academy.Users\Academy.Users.Domain\obj\Debug\net8.0\Academy.Users.Domain.pdb
+C:\Users\DSANVICE\Downloads\Bueno\Academy.Users\Academy.Users.Domain\obj\Debug\net8.0\ref\Academy.Users.Domain.dll

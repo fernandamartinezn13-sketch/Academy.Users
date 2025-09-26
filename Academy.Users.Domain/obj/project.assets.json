@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\LUISGARC\\.nuget\\packages\\": {}
+    "C:\\Users\\DSANVICE\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\LUISGARC\\OneDrive - Capgemini\\Documents\\VSCodeProjects\\Academy.Users\\Academy.Users.Domain\\Academy.Users.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\DSANVICE\\Downloads\\Bueno\\Academy.Users\\Academy.Users.Domain\\Academy.Users.Domain.csproj",
       "projectName": "Academy.Users.Domain",
-      "projectPath": "C:\\Users\\LUISGARC\\OneDrive - Capgemini\\Documents\\VSCodeProjects\\Academy.Users\\Academy.Users.Domain\\Academy.Users.Domain.csproj",
-      "packagesPath": "C:\\Users\\LUISGARC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\LUISGARC\\OneDrive - Capgemini\\Documents\\VSCodeProjects\\Academy.Users\\Academy.Users.Domain\\obj\\",
+      "projectPath": "C:\\Users\\DSANVICE\\Downloads\\Bueno\\Academy.Users\\Academy.Users.Domain\\Academy.Users.Domain.csproj",
+      "packagesPath": "C:\\Users\\DSANVICE\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\DSANVICE\\Downloads\\Bueno\\Academy.Users\\Academy.Users.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\LUISGARC\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\DSANVICE\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -64,7 +64,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\8.0.414/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.414/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
