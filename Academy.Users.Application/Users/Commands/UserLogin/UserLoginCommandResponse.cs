@@ -1,8 +1,8 @@
-namespace Academy.Users.Application.Users.Commands.UserRegister;
+﻿namespace Academy.Users.Application.Users.Commands.UserLogin;
 
-public class RegisterUserCommandResponse
+public class UserLoginCommandResponse
 {
-    public int UserId { get; set; }
+    public int userId { get; set; }
     public string? firstName { get; set; }
     public string? lastName { get; set; }
     public string? email { get; set; }

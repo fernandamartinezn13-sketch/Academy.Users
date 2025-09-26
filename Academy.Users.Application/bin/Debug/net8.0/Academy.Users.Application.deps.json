@@ -145,7 +145,7 @@
       "Academy.Users.Domain/1.0.0": {
         "runtime": {
           "Academy.Users.Domain.dll": {
-            "assemblyVersion": "1.0.0",
+            "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -153,7 +153,7 @@
       "Academy.Users.Infrastructure/1.0.0": {
         "runtime": {
           "Academy.Users.Infrastructure.dll": {
-            "assemblyVersion": "1.0.0",
+            "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
         }

@@ -1546,32 +1546,39 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\LUISGARC\\.nuget\\packages\\": {}
+    "C:\\Users\\lisst\\.nuget\\packages\\": {},
+    "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\LUISGARC\\OneDrive - Capgemini\\Documents\\VSCodeProjects\\Academy.Users\\Academy.Users.API\\Academy.Users.API.csproj",
+      "projectUniqueName": "D:\\GESTION_USUARIOS\\Academy.Users\\Academy.Users.API\\Academy.Users.API.csproj",
       "projectName": "Academy.Users.API",
-      "projectPath": "C:\\Users\\LUISGARC\\OneDrive - Capgemini\\Documents\\VSCodeProjects\\Academy.Users\\Academy.Users.API\\Academy.Users.API.csproj",
-      "packagesPath": "C:\\Users\\LUISGARC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\LUISGARC\\OneDrive - Capgemini\\Documents\\VSCodeProjects\\Academy.Users\\Academy.Users.API\\obj\\",
+      "projectPath": "D:\\GESTION_USUARIOS\\Academy.Users\\Academy.Users.API\\Academy.Users.API.csproj",
+      "packagesPath": "C:\\Users\\lisst\\.nuget\\packages\\",
+      "outputPath": "D:\\GESTION_USUARIOS\\Academy.Users\\Academy.Users.API\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\LUISGARC\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\lisst\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\LUISGARC\\OneDrive - Capgemini\\Documents\\VSCodeProjects\\Academy.Users\\Academy.Users.Presentation\\Academy.Users.Presentation.csproj": {
-              "projectPath": "C:\\Users\\LUISGARC\\OneDrive - Capgemini\\Documents\\VSCodeProjects\\Academy.Users\\Academy.Users.Presentation\\Academy.Users.Presentation.csproj"
+            "D:\\GESTION_USUARIOS\\Academy.Users\\Academy.Users.Presentation\\Academy.Users.Presentation.csproj": {
+              "projectPath": "D:\\GESTION_USUARIOS\\Academy.Users\\Academy.Users.Presentation\\Academy.Users.Presentation.csproj"
             }
           }
         }
@@ -1585,7 +1592,8 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net8.0": {
@@ -1623,7 +1631,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\8.0.414/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

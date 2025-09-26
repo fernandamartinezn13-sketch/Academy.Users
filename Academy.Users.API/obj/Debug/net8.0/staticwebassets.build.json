@@ -1,11 +1,1 @@
-{
-  "Version": 1,
-  "Hash": "kGNhv3U05YL+AAiNzlj0ucUpbRi8jLNIPzeTl1ByHyM=",
-  "Source": "Academy.Users.API",
-  "BasePath": "_content/Academy.Users.API",
-  "Mode": "Default",
-  "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
-}
+{"Version":1,"Hash":"Pw5KSzyyjMsjychHDJmXXEYZtMRqRZ/T2HVlg5n2SRU=","Source":"Academy.Users.API","BasePath":"_content/Academy.Users.API","Mode":"Default","ManifestType":"Build","ReferencedProjectsConfiguration":[],"DiscoveryPatterns":[],"Assets":[],"Endpoints":[]}

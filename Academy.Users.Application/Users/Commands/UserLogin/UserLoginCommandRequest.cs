@@ -1,6 +1,6 @@
-namespace Academy.Users.Application.Users.Commands.UserRegister;
+﻿namespace Academy.Users.Application.Users.Commands.UserLogin;
 
-public class RegisterUserCommandRequest
+public class UserLoginCommandRequest
 {
     public string firstName { get; set; } = string.Empty;
     public string lastName { get; set; } = string.Empty;
