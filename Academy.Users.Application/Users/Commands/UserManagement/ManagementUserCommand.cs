@@ -4,5 +4,5 @@ using MediatR;
 
 namespace Academy.Users.Application.Users.Commands.UserManagement;
 
-public sealed record ManagementUserCommand(ManagemetUserCommandRequest request) : IRequest<Result<GetManagementUserCommandResponse>>;
+public sealed record ManagementUserCommand(ManagemetUserCommandRequest request) : IRequest<Result<ManagementUserCommandResponse>>;
 
