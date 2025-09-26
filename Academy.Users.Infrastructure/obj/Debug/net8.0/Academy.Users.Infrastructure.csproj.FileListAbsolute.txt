@@ -10,3 +10,15 @@ C:\Users\LUISGARC\OneDrive - Capgemini\Documents\VSCodeProjects\Academy.Users\Ac
 C:\Users\LUISGARC\OneDrive - Capgemini\Documents\VSCodeProjects\Academy.Users\Academy.Users.Infrastructure\obj\Debug\net8.0\refint\Academy.Users.Infrastructure.dll
 C:\Users\LUISGARC\OneDrive - Capgemini\Documents\VSCodeProjects\Academy.Users\Academy.Users.Infrastructure\obj\Debug\net8.0\Academy.Users.Infrastructure.pdb
 C:\Users\LUISGARC\OneDrive - Capgemini\Documents\VSCodeProjects\Academy.Users\Academy.Users.Infrastructure\obj\Debug\net8.0\ref\Academy.Users.Infrastructure.dll
+D:\GESTION_USUARIOS\Academy.Users\Academy.Users.Infrastructure\bin\Debug\net8.0\Academy.Users.Infrastructure.deps.json
+D:\GESTION_USUARIOS\Academy.Users\Academy.Users.Infrastructure\bin\Debug\net8.0\Academy.Users.Infrastructure.dll
+D:\GESTION_USUARIOS\Academy.Users\Academy.Users.Infrastructure\bin\Debug\net8.0\Academy.Users.Infrastructure.pdb
+D:\GESTION_USUARIOS\Academy.Users\Academy.Users.Infrastructure\obj\Debug\net8.0\Academy.Users.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\GESTION_USUARIOS\Academy.Users\Academy.Users.Infrastructure\obj\Debug\net8.0\Academy.Users.Infrastructure.AssemblyInfoInputs.cache
+D:\GESTION_USUARIOS\Academy.Users\Academy.Users.Infrastructure\obj\Debug\net8.0\Academy.Users.Infrastructure.AssemblyInfo.cs
+D:\GESTION_USUARIOS\Academy.Users\Academy.Users.Infrastructure\obj\Debug\net8.0\Academy.Users.Infrastructure.csproj.CoreCompileInputs.cache
+D:\GESTION_USUARIOS\Academy.Users\Academy.Users.Infrastructure\obj\Debug\net8.0\Academy.Users.Infrastructure.sourcelink.json
+D:\GESTION_USUARIOS\Academy.Users\Academy.Users.Infrastructure\obj\Debug\net8.0\Academy.Users.Infrastructure.dll
+D:\GESTION_USUARIOS\Academy.Users\Academy.Users.Infrastructure\obj\Debug\net8.0\refint\Academy.Users.Infrastructure.dll
+D:\GESTION_USUARIOS\Academy.Users\Academy.Users.Infrastructure\obj\Debug\net8.0\Academy.Users.Infrastructure.pdb
+D:\GESTION_USUARIOS\Academy.Users\Academy.Users.Infrastructure\obj\Debug\net8.0\ref\Academy.Users.Infrastructure.dll

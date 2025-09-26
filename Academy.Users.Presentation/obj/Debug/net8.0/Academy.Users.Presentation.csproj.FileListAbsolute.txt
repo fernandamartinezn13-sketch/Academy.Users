@@ -18,3 +18,23 @@ C:\Users\LUISGARC\OneDrive - Capgemini\Documents\VSCodeProjects\Academy.Users\Ac
 C:\Users\LUISGARC\OneDrive - Capgemini\Documents\VSCodeProjects\Academy.Users\Academy.Users.Presentation\obj\Debug\net8.0\refint\Academy.Users.Presentation.dll
 C:\Users\LUISGARC\OneDrive - Capgemini\Documents\VSCodeProjects\Academy.Users\Academy.Users.Presentation\obj\Debug\net8.0\Academy.Users.Presentation.pdb
 C:\Users\LUISGARC\OneDrive - Capgemini\Documents\VSCodeProjects\Academy.Users\Academy.Users.Presentation\obj\Debug\net8.0\ref\Academy.Users.Presentation.dll
+D:\GESTION_USUARIOS\Academy.Users\Academy.Users.Presentation\bin\Debug\net8.0\Academy.Users.Presentation.deps.json
+D:\GESTION_USUARIOS\Academy.Users\Academy.Users.Presentation\bin\Debug\net8.0\Academy.Users.Presentation.dll
+D:\GESTION_USUARIOS\Academy.Users\Academy.Users.Presentation\bin\Debug\net8.0\Academy.Users.Presentation.pdb
+D:\GESTION_USUARIOS\Academy.Users\Academy.Users.Presentation\bin\Debug\net8.0\Academy.Users.Application.dll
+D:\GESTION_USUARIOS\Academy.Users\Academy.Users.Presentation\bin\Debug\net8.0\Academy.Users.Domain.dll
+D:\GESTION_USUARIOS\Academy.Users\Academy.Users.Presentation\bin\Debug\net8.0\Academy.Users.Infrastructure.dll
+D:\GESTION_USUARIOS\Academy.Users\Academy.Users.Presentation\bin\Debug\net8.0\Academy.Users.Application.pdb
+D:\GESTION_USUARIOS\Academy.Users\Academy.Users.Presentation\bin\Debug\net8.0\Academy.Users.Domain.pdb
+D:\GESTION_USUARIOS\Academy.Users\Academy.Users.Presentation\bin\Debug\net8.0\Academy.Users.Infrastructure.pdb
+D:\GESTION_USUARIOS\Academy.Users\Academy.Users.Presentation\obj\Debug\net8.0\Academy.Users.Presentation.csproj.AssemblyReference.cache
+D:\GESTION_USUARIOS\Academy.Users\Academy.Users.Presentation\obj\Debug\net8.0\Academy.Users.Presentation.GeneratedMSBuildEditorConfig.editorconfig
+D:\GESTION_USUARIOS\Academy.Users\Academy.Users.Presentation\obj\Debug\net8.0\Academy.Users.Presentation.AssemblyInfoInputs.cache
+D:\GESTION_USUARIOS\Academy.Users\Academy.Users.Presentation\obj\Debug\net8.0\Academy.Users.Presentation.AssemblyInfo.cs
+D:\GESTION_USUARIOS\Academy.Users\Academy.Users.Presentation\obj\Debug\net8.0\Academy.Users.Presentation.csproj.CoreCompileInputs.cache
+D:\GESTION_USUARIOS\Academy.Users\Academy.Users.Presentation\obj\Debug\net8.0\Academy.Users.Presentation.sourcelink.json
+D:\GESTION_USUARIOS\Academy.Users\Academy.Users.Presentation\obj\Debug\net8.0\Academy..DEF1FE01.Up2Date
+D:\GESTION_USUARIOS\Academy.Users\Academy.Users.Presentation\obj\Debug\net8.0\Academy.Users.Presentation.dll
+D:\GESTION_USUARIOS\Academy.Users\Academy.Users.Presentation\obj\Debug\net8.0\refint\Academy.Users.Presentation.dll
+D:\GESTION_USUARIOS\Academy.Users\Academy.Users.Presentation\obj\Debug\net8.0\Academy.Users.Presentation.pdb
+D:\GESTION_USUARIOS\Academy.Users\Academy.Users.Presentation\obj\Debug\net8.0\ref\Academy.Users.Presentation.dll
