@@ -32,6 +32,9 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
+              "C:\\Users\\Abel\\Documents\\Programación\\Net\\ApisDelProyecto\\ProyectoFer(Users)\\Academy.Users\\Academy.Users.Infrastructure\\Academy.Users.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Abel\\Documents\\Programación\\Net\\ApisDelProyecto\\ProyectoFer(Users)\\Academy.Users\\Academy.Users.Infrastructure\\Academy.Users.Infrastructure.csproj"
+              },
               "C:\\Users\\Abel\\Documents\\Programación\\Net\\ApisDelProyecto\\ProyectoFer(Users)\\Academy.Users\\Academy.Users.Presentation\\Academy.Users.Presentation.csproj": {
                 "projectPath": "C:\\Users\\Abel\\Documents\\Programación\\Net\\ApisDelProyecto\\ProyectoFer(Users)\\Academy.Users\\Academy.Users.Presentation\\Academy.Users.Presentation.csproj"
               }
@@ -260,7 +263,11 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\Abel\\Documents\\Programación\\Net\\ApisDelProyecto\\ProyectoFer(Users)\\Academy.Users\\Academy.Users.Domain\\Academy.Users.Domain.csproj": {
+                "projectPath": "C:\\Users\\Abel\\Documents\\Programación\\Net\\ApisDelProyecto\\ProyectoFer(Users)\\Academy.Users\\Academy.Users.Domain\\Academy.Users.Domain.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -278,6 +285,16 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.20, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.20, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Entities\UserEntity\Models\" />
+    <Folder Include="Exceptions\" />
+  </ItemGroup>
+
 </Project>

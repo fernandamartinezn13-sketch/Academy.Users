@@ -1,5 +1,6 @@
 using Academy.Users.Application;
 using Academy.Users.Presentation.Modules;
+using Academy.Users.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
  
@@ -7,6 +8,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddApplication();
+//builder.Services.addInfrastructureService();
  
 // Aquí puedes registrar tus servicios de Application, Infrastructure, etc.
 // builder.Services.AddScoped();
