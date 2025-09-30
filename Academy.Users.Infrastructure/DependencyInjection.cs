@@ -17,8 +17,7 @@ public static class DependencyInjection
         services.AddDbContext<ApplicationDbContext>(options =>
             options.UseSqlServer(configuration.GetConnectionString("DefaultConnection")));
 
-        services.AddOptions<EncryptionSettings>()
-            .Bind(configuration.GetSection("Encryption"));
+        services.Configure<EncryptionSettings>(configuration.GetSection("Encryption"));
 
         services.AddScoped<IUserRepository, UserRepository>();
         services.AddSingleton<IEncryptionService, AesEncryptionService>();
