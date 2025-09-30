@@ -1,4 +1,5 @@
-﻿using Microsoft.Extensions.DependencyInjection;
+﻿using Academy.Users.Application.Users.Services;
+using Microsoft.Extensions.DependencyInjection;
 using System.Reflection;
 
 namespace Academy.Users.Application
@@ -11,6 +12,8 @@ namespace Academy.Users.Application
             {
                 config.RegisterServicesFromAssembly(Assembly.GetExecutingAssembly());
             });
+
+            services.AddScoped<IPasswordHasher, Pbkdf2PasswordHasher>();
 
             return services;
         }

@@ -7,8 +7,10 @@ public static class ModulesConfiguration
 {
     public static IEndpointRouteBuilder Configure(this IEndpointRouteBuilder app)
     {
-        app.MapGroup("/api")
-            .MapPasswordRecoveryModule();
+        var apiGroup = app.MapGroup("/api");
+
+        apiGroup.AddUsersModules();
+        apiGroup.MapPasswordRecoveryModule();
 
         return app;
     }

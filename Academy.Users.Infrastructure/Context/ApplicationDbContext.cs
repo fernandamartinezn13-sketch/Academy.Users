@@ -19,11 +19,16 @@ public class ApplicationDbContext : DbContext
         modelBuilder.Entity<User>(entity =>
         {
             entity.HasKey(e => e.Id);
+            entity.Property(e => e.FirstName).HasMaxLength(100).IsRequired();
+            entity.Property(e => e.LastName).HasMaxLength(100).IsRequired();
             entity.Property(e => e.Email).HasMaxLength(255).IsRequired();
-            entity.Property(e => e.Username).HasMaxLength(100).IsRequired();
-            entity.Property(e => e.PasswordHash).IsRequired();
+            entity.Property(e => e.Address).HasMaxLength(250).IsRequired();
+            entity.Property(e => e.PhoneNumber).HasMaxLength(50).IsRequired();
+            entity.Property(e => e.PasswordHash).HasMaxLength(512).IsRequired();
+            entity.Property(e => e.CreationDate).IsRequired();
+            entity.Property(e => e.Status).IsRequired();
+
             entity.HasIndex(e => e.Email).IsUnique();
-            entity.HasIndex(e => e.Username).IsUnique();
         });
     }
 }
