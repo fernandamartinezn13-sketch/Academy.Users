@@ -73,6 +73,11 @@ builder.Services.AddSwaggerGen(c =>
 //PARA EL TOKEN ES LO ANTERIOR
 var app = builder.Build();
 
+if (Environment.GetEnvironmentVariable("DEBUG_ENABLE_TEST_ENDPOINTS") == "1")
+{
+    app.MapTestEndpoints();
+}
+
 //PARA PRUEBA LOCAL 
 // justo después de var app = builder.Build();
 if (app.Environment.IsDevelopment())

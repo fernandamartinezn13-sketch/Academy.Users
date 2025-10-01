@@ -55,7 +55,7 @@ public sealed class UserLoginCommandHandler
 
         // 5) Respuesta exitosa
         return new UserLoginCommandResponse(
-            user.Id,
+                user.Id,
             user.FirstName,
             user.LastName,
             user.Email,

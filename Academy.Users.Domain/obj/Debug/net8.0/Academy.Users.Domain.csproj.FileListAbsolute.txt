@@ -10,3 +10,15 @@ D:\GESTION_USUARIOS\Academy.Users\Academy.Users.Domain\obj\Debug\net8.0\Academy.
 D:\GESTION_USUARIOS\Academy.Users\Academy.Users.Domain\obj\Debug\net8.0\refint\Academy.Users.Domain.dll
 D:\GESTION_USUARIOS\Academy.Users\Academy.Users.Domain\obj\Debug\net8.0\Academy.Users.Domain.pdb
 D:\GESTION_USUARIOS\Academy.Users\Academy.Users.Domain\obj\Debug\net8.0\ref\Academy.Users.Domain.dll
+D:\Proyectos\LISS\Academy.Users\Academy.Users.Domain\bin\Debug\net8.0\Academy.Users.Domain.deps.json
+D:\Proyectos\LISS\Academy.Users\Academy.Users.Domain\bin\Debug\net8.0\Academy.Users.Domain.dll
+D:\Proyectos\LISS\Academy.Users\Academy.Users.Domain\bin\Debug\net8.0\Academy.Users.Domain.pdb
+D:\Proyectos\LISS\Academy.Users\Academy.Users.Domain\obj\Debug\net8.0\Academy.Users.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Proyectos\LISS\Academy.Users\Academy.Users.Domain\obj\Debug\net8.0\Academy.Users.Domain.AssemblyInfoInputs.cache
+D:\Proyectos\LISS\Academy.Users\Academy.Users.Domain\obj\Debug\net8.0\Academy.Users.Domain.AssemblyInfo.cs
+D:\Proyectos\LISS\Academy.Users\Academy.Users.Domain\obj\Debug\net8.0\Academy.Users.Domain.csproj.CoreCompileInputs.cache
+D:\Proyectos\LISS\Academy.Users\Academy.Users.Domain\obj\Debug\net8.0\Academy.Users.Domain.sourcelink.json
+D:\Proyectos\LISS\Academy.Users\Academy.Users.Domain\obj\Debug\net8.0\Academy.Users.Domain.dll
+D:\Proyectos\LISS\Academy.Users\Academy.Users.Domain\obj\Debug\net8.0\refint\Academy.Users.Domain.dll
+D:\Proyectos\LISS\Academy.Users\Academy.Users.Domain\obj\Debug\net8.0\Academy.Users.Domain.pdb
+D:\Proyectos\LISS\Academy.Users\Academy.Users.Domain\obj\Debug\net8.0\ref\Academy.Users.Domain.dll

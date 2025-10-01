@@ -3815,23 +3815,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\lisst\\.nuget\\packages\\": {},
-    "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\josue\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\GESTION_USUARIOS\\Academy.Users\\Academy.Users.Presentation\\Academy.Users.Presentation.csproj",
+      "projectUniqueName": "D:\\Proyectos\\LISS\\Academy.Users\\Academy.Users.Presentation\\Academy.Users.Presentation.csproj",
       "projectName": "Academy.Users.Presentation",
-      "projectPath": "D:\\GESTION_USUARIOS\\Academy.Users\\Academy.Users.Presentation\\Academy.Users.Presentation.csproj",
-      "packagesPath": "C:\\Users\\lisst\\.nuget\\packages\\",
-      "outputPath": "D:\\GESTION_USUARIOS\\Academy.Users\\Academy.Users.Presentation\\obj\\",
+      "projectPath": "D:\\Proyectos\\LISS\\Academy.Users\\Academy.Users.Presentation\\Academy.Users.Presentation.csproj",
+      "packagesPath": "C:\\Users\\josue\\.nuget\\packages\\",
+      "outputPath": "D:\\Proyectos\\LISS\\Academy.Users\\Academy.Users.Presentation\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\lisst\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\josue\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -3840,17 +3840,18 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\GESTION_USUARIOS\\Academy.Users\\Academy.Users.Application\\Academy.Users.Application.csproj": {
-              "projectPath": "D:\\GESTION_USUARIOS\\Academy.Users\\Academy.Users.Application\\Academy.Users.Application.csproj"
+            "D:\\Proyectos\\LISS\\Academy.Users\\Academy.Users.Application\\Academy.Users.Application.csproj": {
+              "projectPath": "D:\\Proyectos\\LISS\\Academy.Users\\Academy.Users.Application\\Academy.Users.Application.csproj"
             },
-            "D:\\GESTION_USUARIOS\\Academy.Users\\Academy.Users.Domain\\Academy.Users.Domain.csproj": {
-              "projectPath": "D:\\GESTION_USUARIOS\\Academy.Users\\Academy.Users.Domain\\Academy.Users.Domain.csproj"
+            "D:\\Proyectos\\LISS\\Academy.Users\\Academy.Users.Domain\\Academy.Users.Domain.csproj": {
+              "projectPath": "D:\\Proyectos\\LISS\\Academy.Users\\Academy.Users.Domain\\Academy.Users.Domain.csproj"
             }
           }
         }

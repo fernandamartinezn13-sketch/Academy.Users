@@ -13,7 +13,7 @@ public class UsersDbContext : DbContext
     {
         modelBuilder.Entity<User>(b =>
         {
-            b.ToTable("Users");
+            b.ToTable("Users_login");
             b.HasKey(x => x.Id);
             b.Property(x => x.FirstName).HasMaxLength(100).IsRequired();
             b.Property(x => x.LastName).HasMaxLength(100).IsRequired();
