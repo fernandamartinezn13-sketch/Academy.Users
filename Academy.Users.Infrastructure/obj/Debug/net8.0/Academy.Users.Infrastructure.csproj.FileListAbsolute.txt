@@ -1,24 +1,18 @@
-C:\Users\LUISGARC\OneDrive - Capgemini\Documents\VSCodeProjects\Academy.Users\Academy.Users.Infrastructure\bin\Debug\net8.0\Academy.Users.Infrastructure.deps.json
-C:\Users\LUISGARC\OneDrive - Capgemini\Documents\VSCodeProjects\Academy.Users\Academy.Users.Infrastructure\bin\Debug\net8.0\Academy.Users.Infrastructure.dll
-C:\Users\LUISGARC\OneDrive - Capgemini\Documents\VSCodeProjects\Academy.Users\Academy.Users.Infrastructure\bin\Debug\net8.0\Academy.Users.Infrastructure.pdb
-C:\Users\LUISGARC\OneDrive - Capgemini\Documents\VSCodeProjects\Academy.Users\Academy.Users.Infrastructure\obj\Debug\net8.0\Academy.Users.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\LUISGARC\OneDrive - Capgemini\Documents\VSCodeProjects\Academy.Users\Academy.Users.Infrastructure\obj\Debug\net8.0\Academy.Users.Infrastructure.AssemblyInfoInputs.cache
-C:\Users\LUISGARC\OneDrive - Capgemini\Documents\VSCodeProjects\Academy.Users\Academy.Users.Infrastructure\obj\Debug\net8.0\Academy.Users.Infrastructure.AssemblyInfo.cs
-C:\Users\LUISGARC\OneDrive - Capgemini\Documents\VSCodeProjects\Academy.Users\Academy.Users.Infrastructure\obj\Debug\net8.0\Academy.Users.Infrastructure.csproj.CoreCompileInputs.cache
-C:\Users\LUISGARC\OneDrive - Capgemini\Documents\VSCodeProjects\Academy.Users\Academy.Users.Infrastructure\obj\Debug\net8.0\Academy.Users.Infrastructure.sourcelink.json
-C:\Users\LUISGARC\OneDrive - Capgemini\Documents\VSCodeProjects\Academy.Users\Academy.Users.Infrastructure\obj\Debug\net8.0\Academy.Users.Infrastructure.dll
-C:\Users\LUISGARC\OneDrive - Capgemini\Documents\VSCodeProjects\Academy.Users\Academy.Users.Infrastructure\obj\Debug\net8.0\refint\Academy.Users.Infrastructure.dll
-C:\Users\LUISGARC\OneDrive - Capgemini\Documents\VSCodeProjects\Academy.Users\Academy.Users.Infrastructure\obj\Debug\net8.0\Academy.Users.Infrastructure.pdb
-C:\Users\LUISGARC\OneDrive - Capgemini\Documents\VSCodeProjects\Academy.Users\Academy.Users.Infrastructure\obj\Debug\net8.0\ref\Academy.Users.Infrastructure.dll
 D:\GESTION_USUARIOS\Academy.Users\Academy.Users.Infrastructure\bin\Debug\net8.0\Academy.Users.Infrastructure.deps.json
+D:\GESTION_USUARIOS\Academy.Users\Academy.Users.Infrastructure\bin\Debug\net8.0\Academy.Users.Infrastructure.runtimeconfig.json
 D:\GESTION_USUARIOS\Academy.Users\Academy.Users.Infrastructure\bin\Debug\net8.0\Academy.Users.Infrastructure.dll
 D:\GESTION_USUARIOS\Academy.Users\Academy.Users.Infrastructure\bin\Debug\net8.0\Academy.Users.Infrastructure.pdb
+D:\GESTION_USUARIOS\Academy.Users\Academy.Users.Infrastructure\bin\Debug\net8.0\Academy.Users.Domain.dll
+D:\GESTION_USUARIOS\Academy.Users\Academy.Users.Infrastructure\bin\Debug\net8.0\Academy.Users.Domain.pdb
+D:\GESTION_USUARIOS\Academy.Users\Academy.Users.Infrastructure\obj\Debug\net8.0\Academy.Users.Infrastructure.csproj.AssemblyReference.cache
 D:\GESTION_USUARIOS\Academy.Users\Academy.Users.Infrastructure\obj\Debug\net8.0\Academy.Users.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
 D:\GESTION_USUARIOS\Academy.Users\Academy.Users.Infrastructure\obj\Debug\net8.0\Academy.Users.Infrastructure.AssemblyInfoInputs.cache
 D:\GESTION_USUARIOS\Academy.Users\Academy.Users.Infrastructure\obj\Debug\net8.0\Academy.Users.Infrastructure.AssemblyInfo.cs
 D:\GESTION_USUARIOS\Academy.Users\Academy.Users.Infrastructure\obj\Debug\net8.0\Academy.Users.Infrastructure.csproj.CoreCompileInputs.cache
 D:\GESTION_USUARIOS\Academy.Users\Academy.Users.Infrastructure\obj\Debug\net8.0\Academy.Users.Infrastructure.sourcelink.json
+D:\GESTION_USUARIOS\Academy.Users\Academy.Users.Infrastructure\obj\Debug\net8.0\Academy..E697968A.Up2Date
 D:\GESTION_USUARIOS\Academy.Users\Academy.Users.Infrastructure\obj\Debug\net8.0\Academy.Users.Infrastructure.dll
 D:\GESTION_USUARIOS\Academy.Users\Academy.Users.Infrastructure\obj\Debug\net8.0\refint\Academy.Users.Infrastructure.dll
 D:\GESTION_USUARIOS\Academy.Users\Academy.Users.Infrastructure\obj\Debug\net8.0\Academy.Users.Infrastructure.pdb
+D:\GESTION_USUARIOS\Academy.Users\Academy.Users.Infrastructure\obj\Debug\net8.0\Academy.Users.Infrastructure.genruntimeconfig.cache
 D:\GESTION_USUARIOS\Academy.Users\Academy.Users.Infrastructure\obj\Debug\net8.0\ref\Academy.Users.Infrastructure.dll

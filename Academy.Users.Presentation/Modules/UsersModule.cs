@@ -1,33 +1,45 @@
 using Academy.Users.Application.Users.Commands.UserLogin;
 using MediatR;
-using Microsoft.AspNetCore.Builder;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Routing;
+using FluentValidation;
+
+using Microsoft.AspNetCore.Builder;   // MapPost
+using Microsoft.AspNetCore.Http;      // Results, StatusCodes
+using Microsoft.AspNetCore.Routing;   // IEndpointRouteBuilder
 
 namespace Academy.Users.Presentation.Modules;
 
 public static class UsersModule
 {
-    private const string BASE_URL = "api/v1/userLogin/";
-    public static void AddUsersModules(this IEndpointRouteBuilder app)
+    public static IEndpointRouteBuilder MapUsersModule(this IEndpointRouteBuilder app)
     {
-        var customerGroup = app.MapGroup(BASE_URL);
+        // NO crees new UserLoginCommand(); deja que el model binding lo cargue desde el body.
+        app.MapPost("/login", async (
+            UserLoginCommand cmd,                               // <- llega del JSON: { email, password }
+            IValidator<UserLoginCommand> validator,
+            ISender sender) =>
+        {
+            // Validación
+            var v = await validator.ValidateAsync(cmd);
+            if (!v.IsValid)
+                return Results.BadRequest(new { message = "Missing or invalid fields", errors = v.Errors });
 
-        customerGroup.MapPost("", CreateCustomer);
-    }
+            // Enviar al handler
+            var res = await sender.Send(cmd);
 
-    private static async Task<IResult> CreateCustomer(
-        [FromBody] UserLoginCommandRequest request,
-        ISender sender,
-        CancellationToken cancellationToken)
-    {
-        var command = new UserLoginCommand(request);
-        var result = await sender.Send(command, cancellationToken);
+            // ¡NO usar .Value! 'res' YA es el objeto de respuesta.
+            return res.HttpStatus switch
+            {
+                200 => Results.Ok(res),
+                403 => Results.StatusCode(StatusCodes.Status403Forbidden),
+                _ => Results.BadRequest(new { message = "Invalid credentials" })
+            };
+        })
+        .WithTags("Auth")
+        .Produces(200)
+        .Produces(400)
+        .Produces(403)
+        .Produces(500);
 
-        if (result.Value == null)
-            return Results.Content("Unable to create cart");
-
-        return Results.Created($"{BASE_URL}{result.Value.userId}", result.Value);
+        return app;
     }
 }

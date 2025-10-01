@@ -1,23 +1,3 @@
-C:\Users\LUISGARC\OneDrive - Capgemini\Documents\VSCodeProjects\Academy.Users\Academy.Users.Presentation\bin\Debug\net8.0\Academy.Users.Presentation.deps.json
-C:\Users\LUISGARC\OneDrive - Capgemini\Documents\VSCodeProjects\Academy.Users\Academy.Users.Presentation\bin\Debug\net8.0\Academy.Users.Presentation.dll
-C:\Users\LUISGARC\OneDrive - Capgemini\Documents\VSCodeProjects\Academy.Users\Academy.Users.Presentation\bin\Debug\net8.0\Academy.Users.Presentation.pdb
-C:\Users\LUISGARC\OneDrive - Capgemini\Documents\VSCodeProjects\Academy.Users\Academy.Users.Presentation\bin\Debug\net8.0\Academy.Users.Application.dll
-C:\Users\LUISGARC\OneDrive - Capgemini\Documents\VSCodeProjects\Academy.Users\Academy.Users.Presentation\bin\Debug\net8.0\Academy.Users.Domain.dll
-C:\Users\LUISGARC\OneDrive - Capgemini\Documents\VSCodeProjects\Academy.Users\Academy.Users.Presentation\bin\Debug\net8.0\Academy.Users.Infrastructure.dll
-C:\Users\LUISGARC\OneDrive - Capgemini\Documents\VSCodeProjects\Academy.Users\Academy.Users.Presentation\bin\Debug\net8.0\Academy.Users.Application.pdb
-C:\Users\LUISGARC\OneDrive - Capgemini\Documents\VSCodeProjects\Academy.Users\Academy.Users.Presentation\bin\Debug\net8.0\Academy.Users.Domain.pdb
-C:\Users\LUISGARC\OneDrive - Capgemini\Documents\VSCodeProjects\Academy.Users\Academy.Users.Presentation\bin\Debug\net8.0\Academy.Users.Infrastructure.pdb
-C:\Users\LUISGARC\OneDrive - Capgemini\Documents\VSCodeProjects\Academy.Users\Academy.Users.Presentation\obj\Debug\net8.0\Academy.Users.Presentation.csproj.AssemblyReference.cache
-C:\Users\LUISGARC\OneDrive - Capgemini\Documents\VSCodeProjects\Academy.Users\Academy.Users.Presentation\obj\Debug\net8.0\Academy.Users.Presentation.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\LUISGARC\OneDrive - Capgemini\Documents\VSCodeProjects\Academy.Users\Academy.Users.Presentation\obj\Debug\net8.0\Academy.Users.Presentation.AssemblyInfoInputs.cache
-C:\Users\LUISGARC\OneDrive - Capgemini\Documents\VSCodeProjects\Academy.Users\Academy.Users.Presentation\obj\Debug\net8.0\Academy.Users.Presentation.AssemblyInfo.cs
-C:\Users\LUISGARC\OneDrive - Capgemini\Documents\VSCodeProjects\Academy.Users\Academy.Users.Presentation\obj\Debug\net8.0\Academy.Users.Presentation.csproj.CoreCompileInputs.cache
-C:\Users\LUISGARC\OneDrive - Capgemini\Documents\VSCodeProjects\Academy.Users\Academy.Users.Presentation\obj\Debug\net8.0\Academy.Users.Presentation.sourcelink.json
-C:\Users\LUISGARC\OneDrive - Capgemini\Documents\VSCodeProjects\Academy.Users\Academy.Users.Presentation\obj\Debug\net8.0\Academy..DEF1FE01.Up2Date
-C:\Users\LUISGARC\OneDrive - Capgemini\Documents\VSCodeProjects\Academy.Users\Academy.Users.Presentation\obj\Debug\net8.0\Academy.Users.Presentation.dll
-C:\Users\LUISGARC\OneDrive - Capgemini\Documents\VSCodeProjects\Academy.Users\Academy.Users.Presentation\obj\Debug\net8.0\refint\Academy.Users.Presentation.dll
-C:\Users\LUISGARC\OneDrive - Capgemini\Documents\VSCodeProjects\Academy.Users\Academy.Users.Presentation\obj\Debug\net8.0\Academy.Users.Presentation.pdb
-C:\Users\LUISGARC\OneDrive - Capgemini\Documents\VSCodeProjects\Academy.Users\Academy.Users.Presentation\obj\Debug\net8.0\ref\Academy.Users.Presentation.dll
 D:\GESTION_USUARIOS\Academy.Users\Academy.Users.Presentation\bin\Debug\net8.0\Academy.Users.Presentation.deps.json
 D:\GESTION_USUARIOS\Academy.Users\Academy.Users.Presentation\bin\Debug\net8.0\Academy.Users.Presentation.dll
 D:\GESTION_USUARIOS\Academy.Users\Academy.Users.Presentation\bin\Debug\net8.0\Academy.Users.Presentation.pdb

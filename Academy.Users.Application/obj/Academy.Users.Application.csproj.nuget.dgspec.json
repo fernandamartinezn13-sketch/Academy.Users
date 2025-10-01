@@ -57,9 +57,17 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.9.0, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[11.9.0, )"
+            },
             "MediatR": {
               "target": "Package",
-              "version": "[13.0.0, )"
+              "version": "[12.2.0, )"
             }
           },
           "imports": [
@@ -174,7 +182,11 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\GESTION_USUARIOS\\Academy.Users\\Academy.Users.Domain\\Academy.Users.Domain.csproj": {
+                "projectPath": "D:\\GESTION_USUARIOS\\Academy.Users\\Academy.Users.Domain\\Academy.Users.Domain.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -192,6 +204,34 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.3.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.9, )"
+            },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[9.0.9, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[8.14.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

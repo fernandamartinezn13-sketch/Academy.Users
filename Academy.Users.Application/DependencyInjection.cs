@@ -1,5 +1,7 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using System.Reflection;
+using FluentValidation;
+using MediatR;
 
 namespace Academy.Users.Application
 {
@@ -7,11 +9,12 @@ namespace Academy.Users.Application
     {
         public static IServiceCollection AddApplication(this IServiceCollection services)
         {
-            services.AddMediatR(config =>
+            services.AddMediatR(cfg =>
             {
-                config.RegisterServicesFromAssembly(Assembly.GetExecutingAssembly());
+                cfg.RegisterServicesFromAssembly(Assembly.GetExecutingAssembly());
             });
 
+            services.AddValidatorsFromAssembly(Assembly.GetExecutingAssembly());
             return services;
         }
     }
