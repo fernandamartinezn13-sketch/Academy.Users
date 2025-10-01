@@ -2,7 +2,7 @@
 
 public class ManagemetUserCommandRequest
 {
-    public string email { get; set; }
+    public string email { get; set; } = default!;
     public int status { get; set; }
     public string reason { get; set; }
     

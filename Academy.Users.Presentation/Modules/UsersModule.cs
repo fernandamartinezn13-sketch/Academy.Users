@@ -1,10 +1,12 @@
 using Academy.Users.Application.Users.Commands.UserManagement;
 using Academy.Users.Application.Users.Commands.UserRegister;
+using Academy.Users.Infrastructure.Persistence.Context;
 using MediatR;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Routing;
+using Microsoft.EntityFrameworkCore;
 
 namespace Academy.Users.Presentation.Modules;
 

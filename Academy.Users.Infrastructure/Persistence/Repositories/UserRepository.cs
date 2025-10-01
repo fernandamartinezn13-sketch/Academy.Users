@@ -4,16 +4,31 @@ using Academy.Users.Infrastructure.Persistence.Context;
 using Microsoft.EntityFrameworkCore;
 
 namespace Academy.Users.Infrastructure.Persistence.Repositories;
-                            
-                            // va un contexto de bd INVESTIGAR
-public class UserRepository(ApplicationDbContextObjects context) : IUserRepository
-{
-    public async Task<User> GetUserById(int userId)
-    {
-        // Aquí se hace la lógica para trabajar con los datos de la base de datos
 
-        //IntEntityId user = new IntEntityId(userId);
-        // return await DbContext.Users.FirstOfDefaultAsync(x => x.UserId == UserId);
-        throw new NotImplementedException();
+// va un contexto de bd INVESTIGAR
+public class UserRepository : IUserRepository
+{
+    private readonly AppDbContext _context;
+
+    public UserRepository(AppDbContext context)
+    {
+        _context = context;
+    }
+
+    public async Task<User?> GetByEmailAsync(string email)
+    {
+        return await _context.Users.FirstOrDefaultAsync(u => u.email == email);
+    }
+
+    public async Task UpdateAsync(User user)
+    {
+        _context.Users.Update(user);
+        await _context.SaveChangesAsync();
+    }
+
+    public async Task AddHistoryAsync(UserHistory history)
+    {
+        _context.UserHistories.Add(history);
+        await _context.SaveChangesAsync();
     }
 }

@@ -2,5 +2,9 @@
 
 public interface IUserRepository
 {
-    Task<User> GetUserById(int userId);
+    Task<User> GetByEmailAsync(string email);
+    Task UpdateAsync(User user);
+
+    Task AddHistoryAsync(UserHistory history);
+
 }
