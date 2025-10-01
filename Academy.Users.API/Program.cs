@@ -1,27 +1,30 @@
+using Academy.Users.Application;
+using Academy.Users.Presentation.Modules;
+using Microsoft.AspNetCore.Builder;
+using Microsoft.Extensions.Hosting;
+
 var builder = WebApplication.CreateBuilder(args);
- 
-// Agregar servicios de Swagger
+
+// Add services to the container.
+// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
- 
-// Aquí puedes registrar tus servicios de Application, Infrastructure, etc.
-// builder.Services.AddScoped();
- 
+builder.Services.AddApplication();
+
 var app = builder.Build();
- 
-// Configurar Swagger solo en desarrollo
+
+// Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI(options =>
     {
-        options.SwaggerEndpoint("/swagger/v1/swagger.json", "Academy.Products API v1");
-        options.RoutePrefix = string.Empty; // Para que se muestre en la raíz: https://localhost:5001/
+        options.SwaggerEndpoint("/swagger/v1/swagger.json", "Academy.Users API V1");
     });
 }
- 
+
+ModulesConfiguration.Configure(app);
+
 app.UseHttpsRedirection();
- 
-app.MapGet("/", () => "Academy.Products API - .NET 8");
- 
+
 app.Run();

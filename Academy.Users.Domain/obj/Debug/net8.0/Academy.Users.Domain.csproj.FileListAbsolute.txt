@@ -1,0 +1,12 @@
+C:\Users\cs940\OneDrive\Documentos\Capgemini\E-commerse\Academy.Users\Academy.Users.Domain\bin\Debug\net8.0\Academy.Users.Domain.deps.json
+C:\Users\cs940\OneDrive\Documentos\Capgemini\E-commerse\Academy.Users\Academy.Users.Domain\bin\Debug\net8.0\Academy.Users.Domain.dll
+C:\Users\cs940\OneDrive\Documentos\Capgemini\E-commerse\Academy.Users\Academy.Users.Domain\bin\Debug\net8.0\Academy.Users.Domain.pdb
+C:\Users\cs940\OneDrive\Documentos\Capgemini\E-commerse\Academy.Users\Academy.Users.Domain\obj\Debug\net8.0\Academy.Users.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cs940\OneDrive\Documentos\Capgemini\E-commerse\Academy.Users\Academy.Users.Domain\obj\Debug\net8.0\Academy.Users.Domain.AssemblyInfoInputs.cache
+C:\Users\cs940\OneDrive\Documentos\Capgemini\E-commerse\Academy.Users\Academy.Users.Domain\obj\Debug\net8.0\Academy.Users.Domain.AssemblyInfo.cs
+C:\Users\cs940\OneDrive\Documentos\Capgemini\E-commerse\Academy.Users\Academy.Users.Domain\obj\Debug\net8.0\Academy.Users.Domain.csproj.CoreCompileInputs.cache
+C:\Users\cs940\OneDrive\Documentos\Capgemini\E-commerse\Academy.Users\Academy.Users.Domain\obj\Debug\net8.0\Academy.Users.Domain.sourcelink.json
+C:\Users\cs940\OneDrive\Documentos\Capgemini\E-commerse\Academy.Users\Academy.Users.Domain\obj\Debug\net8.0\Academy.Users.Domain.dll
+C:\Users\cs940\OneDrive\Documentos\Capgemini\E-commerse\Academy.Users\Academy.Users.Domain\obj\Debug\net8.0\refint\Academy.Users.Domain.dll
+C:\Users\cs940\OneDrive\Documentos\Capgemini\E-commerse\Academy.Users\Academy.Users.Domain\obj\Debug\net8.0\Academy.Users.Domain.pdb
+C:\Users\cs940\OneDrive\Documentos\Capgemini\E-commerse\Academy.Users\Academy.Users.Domain\obj\Debug\net8.0\ref\Academy.Users.Domain.dll

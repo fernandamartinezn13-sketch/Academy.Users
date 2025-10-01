@@ -1,0 +1,12 @@
+C:\Users\cs940\OneDrive\Documentos\Capgemini\E-commerse\Academy.Users\Academy.Users.Infrastructure\bin\Debug\net8.0\Academy.Users.Infrastructure.deps.json
+C:\Users\cs940\OneDrive\Documentos\Capgemini\E-commerse\Academy.Users\Academy.Users.Infrastructure\bin\Debug\net8.0\Academy.Users.Infrastructure.dll
+C:\Users\cs940\OneDrive\Documentos\Capgemini\E-commerse\Academy.Users\Academy.Users.Infrastructure\bin\Debug\net8.0\Academy.Users.Infrastructure.pdb
+C:\Users\cs940\OneDrive\Documentos\Capgemini\E-commerse\Academy.Users\Academy.Users.Infrastructure\obj\Debug\net8.0\Academy.Users.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cs940\OneDrive\Documentos\Capgemini\E-commerse\Academy.Users\Academy.Users.Infrastructure\obj\Debug\net8.0\Academy.Users.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\cs940\OneDrive\Documentos\Capgemini\E-commerse\Academy.Users\Academy.Users.Infrastructure\obj\Debug\net8.0\Academy.Users.Infrastructure.AssemblyInfo.cs
+C:\Users\cs940\OneDrive\Documentos\Capgemini\E-commerse\Academy.Users\Academy.Users.Infrastructure\obj\Debug\net8.0\Academy.Users.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\cs940\OneDrive\Documentos\Capgemini\E-commerse\Academy.Users\Academy.Users.Infrastructure\obj\Debug\net8.0\Academy.Users.Infrastructure.sourcelink.json
+C:\Users\cs940\OneDrive\Documentos\Capgemini\E-commerse\Academy.Users\Academy.Users.Infrastructure\obj\Debug\net8.0\Academy.Users.Infrastructure.dll
+C:\Users\cs940\OneDrive\Documentos\Capgemini\E-commerse\Academy.Users\Academy.Users.Infrastructure\obj\Debug\net8.0\refint\Academy.Users.Infrastructure.dll
+C:\Users\cs940\OneDrive\Documentos\Capgemini\E-commerse\Academy.Users\Academy.Users.Infrastructure\obj\Debug\net8.0\Academy.Users.Infrastructure.pdb
+C:\Users\cs940\OneDrive\Documentos\Capgemini\E-commerse\Academy.Users\Academy.Users.Infrastructure\obj\Debug\net8.0\ref\Academy.Users.Infrastructure.dll

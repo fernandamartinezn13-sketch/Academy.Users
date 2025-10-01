@@ -1,11 +1,1 @@
-{
-  "Version": 1,
-  "Hash": "kGNhv3U05YL+AAiNzlj0ucUpbRi8jLNIPzeTl1ByHyM=",
-  "Source": "Academy.Users.API",
-  "BasePath": "_content/Academy.Users.API",
-  "Mode": "Default",
-  "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
-}
+{"Version":1,"Hash":"cNM8GNbou4tCdXKfIaeDxnvh108barkPwe8AQtP1XZc=","Source":"Academy.Users.API","BasePath":"_content/Academy.Users.API","Mode":"Default","ManifestType":"Build","ReferencedProjectsConfiguration":[{"Identity":"C:\\Users\\cs940\\OneDrive\\Documentos\\Capgemini\\E-commerse\\Academy.Users\\Academy.Users.Presentation\\Academy.Users.Presentation.csproj","Version":2,"Source":"Academy.Users.Presentation","GetPublishAssetsTargets":"ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems","AdditionalPublishProperties":"","AdditionalPublishPropertiesToRemove":"WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained","GetBuildAssetsTargets":"GetCurrentProjectBuildStaticWebAssetItems","AdditionalBuildProperties":"","AdditionalBuildPropertiesToRemove":"WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"}],"DiscoveryPatterns":[],"Assets":[],"Endpoints":[]}
