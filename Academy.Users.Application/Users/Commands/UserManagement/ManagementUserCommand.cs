@@ -1,4 +1,4 @@
-﻿using Academy.Users.Domain.Shared;
+﻿using Academy.Users.Application.Shared;
 using MediatR;
 
 
