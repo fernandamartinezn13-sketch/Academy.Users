@@ -6,30 +6,29 @@ namespace Academy.Users.Domain.Entities.UserEntity;
 
 public class User
 {
-    public int user_id { get; set; }          // user_id en la BD
-    public string first_name { get; set; } = default!;
-    public string last_name { get; set; } = default!;
-    public string email { get; set; } = default!;
-    public string phone_number { get; set; } = default!;
-    public string address { get; set; } = default!;
-    public string password_hash { get; set; } = default!;
-    public string status { get; set; } = "ACTIVE";  // ACTIVE, INACTIVE, BLOCKED
-    public DateTime created_at { get; set; }
-    public DateTime updated_at { get; set; }
+    [Key]
+    [Column("user_id")]
+    public int UserId { get; set; }
 
+    [Column("first_name")]
+    public string FirstName { get; set; } = string.Empty;
 
-    // Propiedades en memoria para la lógica
-    [NotMapped]
-    public int failedLoginAttempts { get; set; } = 0;
+    [Column("last_name")]
+    public string LastName { get; set; } = string.Empty;
 
-    [NotMapped]
-    public DateTime? blockedUntil { get; set; }
+    [Column("email")]
+    public string Email { get; set; } = string.Empty;
 
-    public bool isBlocked => status == "BLOCKED" || (blockedUntil.HasValue && blockedUntil.Value > DateTime.UtcNow);
+    [Column("status")]
+    public string Status { get; set; } = "ACTIVE";
 
-    [NotMapped]
-    public bool isEmailVerified { get; set; } = false;
+    [Column("created_at")]
+    public DateTime CreatedAt { get; set; }
+
+    [Column("updated_at")]
+    public DateTime UpdatedAt { get; set; }
 
     [NotMapped]
-    public bool passwordRecovered { get; set; } = false;
+    public bool IsActive => Status == "ACTIVE";
 }
+

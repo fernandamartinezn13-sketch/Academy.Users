@@ -12,7 +12,12 @@ public class AppDbContext : DbContext
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
-        modelBuilder.Entity<User>().ToTable("Users").HasKey(u => u.user_id);
-        modelBuilder.Entity<UserHistory>().ToTable("UserHistory").HasKey(h => h.history_id);
+        modelBuilder.Entity<User>()
+            .ToTable("Users")
+            .HasKey(u => u.UserId); 
+
+        modelBuilder.Entity<UserHistory>()
+            .ToTable("UserHistory")
+            .HasKey(h => h.history_id);
     }
 }
