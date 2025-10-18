@@ -27,7 +27,7 @@ public class ManagementUserCommandHandler : IRequestHandler<ManagementUserComman
 
             // Actualizar estado
             user.Status = request.request.Status == 1 ? "ACTIVE" : "BLOCKED";
-            user.UpdatedAt = DateTime.UtcNow;
+            user.UpdatedAt = DateTime.Now;
 
             // Guardar cambios
             await _userRepository.UpdateAsync(user);
