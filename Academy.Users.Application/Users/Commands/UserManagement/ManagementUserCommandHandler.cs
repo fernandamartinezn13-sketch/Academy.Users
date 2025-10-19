@@ -20,10 +20,10 @@ public class ManagementUserCommandHandler : IRequestHandler<ManagementUserComman
     {
         
         if (request?.request == null)
-            throw new InvalidRequestDataException("El request no puede ser null.");
+            throw new InvalidRequestDataException("The request cannot be null.");
 
         if (string.IsNullOrWhiteSpace(request.request.Email) || string.IsNullOrEmpty(request.request.Email))
-            throw new InvalidRequestDataException("El email es obligatorio.");
+            throw new InvalidRequestDataException("Email is required.");
      
 
         try
@@ -31,13 +31,13 @@ public class ManagementUserCommandHandler : IRequestHandler<ManagementUserComman
             
             UserModel? user = await _userRepository.GetByEmailAsync(request.request.Email);
             if (user == null)
-                throw new InvalidRequestDataException("El usuario no existe.");
+                throw new InvalidRequestDataException("The user does not exist.");
    
             if (user.Status == "ACTIVE" && request.request.Status.Value)
-                throw new UserAlreadyInStateException("El usuario ya está ACTIVO.");
+                throw new UserAlreadyInStateException("The user is already active.");
 
             if (user.Status == "BLOCKED" && !request.request.Status.Value)
-                throw new UserAlreadyInStateException("El usuario ya está BLOQUEADO.");
+                throw new UserAlreadyInStateException("The user is already blocked.");
 
             
             user.Status = request.request.Status.Value ? "ACTIVE" : "BLOCKED";
@@ -50,7 +50,7 @@ public class ManagementUserCommandHandler : IRequestHandler<ManagementUserComman
             {
                 Email = user.Email,
                 Status = request.request.Status.Value,
-                Message = request.request.Status.Value ? "Usuario activado" : "Usuario bloqueado",
+                Message = request.request.Status.Value ? "Activated user" : "Blocked user",
                 Timestamp = DateTime.Now
             };
 
@@ -70,7 +70,7 @@ public class ManagementUserCommandHandler : IRequestHandler<ManagementUserComman
         }
         catch (Exception ex)
         {
-            throw new Exception("Error interno en ManagementUserCommandHandler: " + ex.Message);
+            throw new Exception("Internal error in ManagementUserCommandHandler: " + ex.Message);
         }
     }
 

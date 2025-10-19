@@ -5,12 +5,7 @@ out/
 Debug/
 Release/
 
-**/bin/
-**/obj/
-**/.vs/
-
-
-# Archivos temporales de Visual Studio
+# Visual Studio
 .vs/
 *.user
 *.suo
@@ -25,6 +20,11 @@ launchSettings.json
 packages/
 *.nupkg
 *.snupkg
+*.nuget.g.props
+*.nuget.g.targets
+*.nuget.dgspec.json
+project.assets.json
+project.nuget.cache
 
 # Archivos de logs
 *.log
@@ -33,15 +33,30 @@ packages/
 TestResults/
 *.coverage
 *.coveragexml
+*.trx
 
 # Archivos del sistema
 .DS_Store
 Thumbs.db
 
-# Archivos de Rider/JetBrains
+# Archivos de Rider / JetBrains
 .idea/
 *.iml
 
 # Archivos de Resharper
 _ReSharper*/
 *.DotSettings.user
+
+# Datos sensibles
+appsettings.Development.json
+
+# Otros binarios / temporales
+*.vsix
+*.pdb
+*.dll
+*.exe
+
+**/obj/
+**/bin/
+*.user
+*.vs/
