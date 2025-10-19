@@ -1,5 +1,62 @@
+# Compilación
 bin/
 obj/
+out/
+Debug/
+Release/
+
+# Visual Studio
+.vs/
 *.user
 *.suo
+*.cache
+*.dbmdl
+*.jfm
+
+# Archivos de configuración locales
+launchSettings.json
+
+# Dependencias de paquetes
+packages/
+*.nupkg
+*.snupkg
+*.nuget.g.props
+*.nuget.g.targets
+*.nuget.dgspec.json
+project.assets.json
+project.nuget.cache
+
+# Archivos de logs
+*.log
+
+# Archivos generados por tests o coverage
+TestResults/
+*.coverage
+*.coveragexml
+*.trx
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de Rider / JetBrains
+.idea/
+*.iml
+
+# Archivos de Resharper
+_ReSharper*/
+*.DotSettings.user
+
+# Datos sensibles
+appsettings.Development.json
+
+# Otros binarios / temporales
+*.vsix
+*.pdb
+*.dll
+*.exe
+
+**/obj/
+**/bin/
+*.user
 *.vs/

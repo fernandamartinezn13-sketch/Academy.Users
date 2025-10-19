@@ -1,5 +1,4 @@
 using Academy.Users.Application.Users.Commands.UserManagement;
-using Academy.Users.Application.Users.Commands.UserRegister;
 using MediatR;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Http;
@@ -14,25 +13,10 @@ public static class UsersModule
     public static void AddUsersModules(this IEndpointRouteBuilder app)
     {
         var customerGroup = app.MapGroup(BASE_URL);
-
-        customerGroup.MapPost("", CreateCustomer);
-        customerGroup.MapPut("{email}", UpdateUser);
+      
+        customerGroup.MapPut("manageUserStatus", UpdateUser);
     }
-
-    private static async Task<IResult> CreateCustomer(
-        [FromBody] RegisterUserCommandRequest request,
-        ISender sender,
-        CancellationToken cancellationToken)
-    {
-        var command = new RegisterUserCommand(request);
-        var result = await sender.Send(command, cancellationToken);
-
-        if (result.Value == null)
-            return Results.Content("Unable to create cart");
-
-        return Results.Created($"{BASE_URL}{result.Value.UserId}", result.Value);
-    }
-
+ 
     private static async Task<IResult> UpdateUser(
         [FromBody] ManagemetUserCommandRequest request,
         ISender sender,
