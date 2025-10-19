@@ -4,7 +4,7 @@ public class ManagementUserCommandResponse
 {
 
     public string Email { get; set; } = default!;
-    public int Status { get; set; }
+    public bool Status { get; set; }
     public string Message { get; set; } = default!;
     public DateTime Timestamp { get; set; }
 

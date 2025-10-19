@@ -1,6 +1,7 @@
 ﻿using Academy.Users.Application.Shared;
 using Academy.Users.Domain.Entities.UserEntity.Models;
 using Academy.Users.Domain.Entities.UserEntity.Repositories;
+using Academy.Users.Domain.Exceptions;
 using MediatR;
 
 namespace Academy.Users.Application.Users.Commands.UserManagement;
@@ -17,49 +18,59 @@ public class ManagementUserCommandHandler : IRequestHandler<ManagementUserComman
         ManagementUserCommand request,
         CancellationToken cancellationToken)
     {
-        // 1. Validaciones de request
+        
         if (request?.request == null)
-            return Result<ManagementUserCommandResponse>.Failure(
-                new Error("InvalidRequest", "El request no puede ser null."));
+            throw new InvalidRequestDataException("El request no puede ser null.");
 
-        if (string.IsNullOrWhiteSpace(request.request.Email))
-            return Result<ManagementUserCommandResponse>.Failure(
-                new Error("InvalidEmail", "Ingrese un email válido."));
-
-        if (request.request.Status != 0 && request.request.Status != 1)
-            return Result<ManagementUserCommandResponse>.Failure(
-                new Error("InvalidStatus", "Valor de estado inválido. Use 1 para activar o 0 para bloquear."));
+        if (string.IsNullOrWhiteSpace(request.request.Email) || string.IsNullOrEmpty(request.request.Email))
+            throw new InvalidRequestDataException("El email es obligatorio.");
+     
 
         try
         {
-            // 2. Buscar usuario solo después de validar
+            
             User? user = await _userRepository.GetByEmailAsync(request.request.Email);
             if (user == null)
-                return Result<ManagementUserCommandResponse>.Failure(
-                    new Error("UserNotFound", "El usuario no existe."));
+                throw new InvalidRequestDataException("El usuario no existe.");
+   
+            if (user.Status == "ACTIVE" && request.request.Status.Value)
+                throw new UserAlreadyInStateException("El usuario ya está ACTIVO.");
 
-            // 3. Actualizar estado
-            user.Status = request.request.Status == 1 ? "ACTIVE" : "BLOCKED";
+            if (user.Status == "BLOCKED" && !request.request.Status.Value)
+                throw new UserAlreadyInStateException("El usuario ya está BLOQUEADO.");
+
+            
+            user.Status = request.request.Status.Value ? "ACTIVE" : "BLOCKED";
             user.UpdatedAt = DateTime.Now;
 
-            // 4. Guardar cambios
             await _userRepository.UpdateAsync(user);
 
-            // 5. Construir respuesta
+            
             ManagementUserCommandResponse response = new ManagementUserCommandResponse
             {
                 Email = user.Email,
-                Status = request.request.Status,
-                Message = request.request.Status == 1 ? "Usuario activado" : "Usuario bloqueado",
+                Status = request.request.Status.Value,
+                Message = request.request.Status.Value ? "Usuario activado" : "Usuario bloqueado",
                 Timestamp = DateTime.Now
             };
 
             return Result<ManagementUserCommandResponse>.Success(response, response.Message);
         }
+        catch (InvalidRequestDataException)
+        {
+            throw;
+        }
+        catch (InvalidStatusException)
+        {
+            throw;
+        }
+        catch (UserAlreadyInStateException)
+        {
+            throw;
+        }
         catch (Exception ex)
         {
-            return Result<ManagementUserCommandResponse>.Failure(
-                new Error("InternalError", ex.Message));
+            throw new Exception("Error interno en ManagementUserCommandHandler: " + ex.Message);
         }
     }
 

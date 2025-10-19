@@ -2,7 +2,7 @@
 
 public class ManagemetUserCommandRequest
 {
-    public string Email { get; set; } = default!;
-    public int Status { get; set; }
+    public string Email { get; set; } = string.Empty;
+    public bool? Status { get; set; } 
 
 }

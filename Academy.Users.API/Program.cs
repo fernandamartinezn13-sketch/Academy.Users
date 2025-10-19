@@ -3,6 +3,7 @@ using Academy.Users.Application.Users.Commands.UserManagement;
 using Academy.Users.Domain.Entities.UserEntity.Repositories;
 using Academy.Users.Infrastructure.Persistence.Context;
 using Academy.Users.Infrastructure.Persistence.Repositories;
+using Academy.Users.Presentation.Middleware;
 using Academy.Users.Presentation.Modules;
 using Microsoft.EntityFrameworkCore;
 
@@ -37,8 +38,10 @@ if (app.Environment.IsDevelopment())
     });
 }
 
+app.UseHttpsRedirection();
+
 ModulesConfiguration.Configure(app);
 
-app.UseHttpsRedirection();
- 
+app.UseMiddleware<UserManagementExceptionMiddleware>();
+
 app.Run();
