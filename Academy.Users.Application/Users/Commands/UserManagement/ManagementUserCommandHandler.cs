@@ -1,4 +1,5 @@
 ﻿using Academy.Users.Application.Shared;
+using Academy.Users.Domain.Entities.UserEntity.Models;
 using Academy.Users.Domain.Entities.UserEntity.Repositories;
 using MediatR;
 
@@ -16,27 +17,36 @@ public class ManagementUserCommandHandler : IRequestHandler<ManagementUserComman
         ManagementUserCommand request,
         CancellationToken cancellationToken)
     {
-        if (!((request?.request) != null && !string.IsNullOrWhiteSpace(request.request.Email) && !string.IsNullOrEmpty(request.request.Email)))
+        // 1. Validaciones de request
+        if (request?.request == null)
             return Result<ManagementUserCommandResponse>.Failure(
-                new Error("InvalidRequest", "El request no puede ser null o sin email."));
+                new Error("InvalidRequest", "El request no puede ser null."));
+
+        if (string.IsNullOrWhiteSpace(request.request.Email))
+            return Result<ManagementUserCommandResponse>.Failure(
+                new Error("InvalidEmail", "Ingrese un email válido."));
+
+        if (request.request.Status != 0 && request.request.Status != 1)
+            return Result<ManagementUserCommandResponse>.Failure(
+                new Error("InvalidStatus", "Valor de estado inválido. Use 1 para activar o 0 para bloquear."));
 
         try
         {
-            // Buscar usuario
-            var user = await _userRepository.GetByEmailAsync(request.request.Email);
+            // 2. Buscar usuario solo después de validar
+            User? user = await _userRepository.GetByEmailAsync(request.request.Email);
             if (user == null)
                 return Result<ManagementUserCommandResponse>.Failure(
                     new Error("UserNotFound", "El usuario no existe."));
 
-            // Actualizar estado
+            // 3. Actualizar estado
             user.Status = request.request.Status == 1 ? "ACTIVE" : "BLOCKED";
             user.UpdatedAt = DateTime.Now;
 
-            // Guardar cambios
+            // 4. Guardar cambios
             await _userRepository.UpdateAsync(user);
 
-            // Construir respuesta
-            var response = new ManagementUserCommandResponse
+            // 5. Construir respuesta
+            ManagementUserCommandResponse response = new ManagementUserCommandResponse
             {
                 Email = user.Email,
                 Status = request.request.Status,
@@ -44,17 +54,13 @@ public class ManagementUserCommandHandler : IRequestHandler<ManagementUserComman
                 Timestamp = DateTime.Now
             };
 
-            // Éxito con mensaje
-            return Result<ManagementUserCommandResponse>.Success(
-                response,
-                response.Message
-            );
+            return Result<ManagementUserCommandResponse>.Success(response, response.Message);
         }
         catch (Exception ex)
         {
             return Result<ManagementUserCommandResponse>.Failure(
-                new Error("InternalError", ex.Message)
-            );
+                new Error("InternalError", ex.Message));
         }
     }
+
 }
