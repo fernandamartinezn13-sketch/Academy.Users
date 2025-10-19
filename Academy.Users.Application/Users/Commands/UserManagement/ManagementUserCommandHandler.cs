@@ -29,7 +29,7 @@ public class ManagementUserCommandHandler : IRequestHandler<ManagementUserComman
         try
         {
             
-            User? user = await _userRepository.GetByEmailAsync(request.request.Email);
+            UserModel? user = await _userRepository.GetByEmailAsync(request.request.Email);
             if (user == null)
                 throw new InvalidRequestDataException("El usuario no existe.");
    

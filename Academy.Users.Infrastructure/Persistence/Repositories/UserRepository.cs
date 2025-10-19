@@ -14,17 +14,15 @@ public class UserRepository : IUserRepository
     {
         _context = context;
     }
-
-    // Devuelve Domain/Model directamente
-    public async Task<User> GetByEmailAsync(string email)
+    
+    public async Task<UserModel?> GetByEmailAsync(string email)
     {
         UserEntity entity = await _context.Users.FirstOrDefaultAsync(u => u.Email == email);
 
         if (entity == null)
             return null;
-
-        // Conversión inline Entity -> Domain Model
-        User user = new User
+        
+        UserModel user = new UserModel
         {
             UserId = entity.UserId,
             Email = entity.Email,
@@ -34,15 +32,13 @@ public class UserRepository : IUserRepository
         return user;
     }
 
-    // Actualiza la entidad en la BD usando el Domain/Model
-    public async Task UpdateAsync(User user)
+    public async Task UpdateAsync(UserModel user)
     {
         UserEntity entity = await _context.Users.FirstOrDefaultAsync(u => u.UserId == user.UserId);
 
         if (entity == null)
             throw new Exception("User not found in DB");
 
-        // Actualizar campos desde el model
         entity.Status = user.Status;
         entity.UpdatedAt = DateTime.Now;
 

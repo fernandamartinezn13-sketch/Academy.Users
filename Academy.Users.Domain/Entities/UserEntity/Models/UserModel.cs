@@ -2,7 +2,7 @@
 
 namespace Academy.Users.Domain.Entities.UserEntity.Models;
 
-public class User
+public class UserModel
 {
     public int UserId { get; set; }
   

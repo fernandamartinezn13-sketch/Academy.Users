@@ -13,7 +13,7 @@ public class UserEntity
     public DateTime CreatedAt { get; set; }
     public DateTime UpdatedAt { get; set; }
 
-    public static implicit operator UserEntity?(User? v)
+    public static implicit operator UserEntity?(UserModel? v)
     {
         throw new NotImplementedException();
     }

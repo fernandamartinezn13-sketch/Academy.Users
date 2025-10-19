@@ -6,7 +6,7 @@ namespace Academy.Users.Infrastructure.InjectionManager;
 
 public static class RepositoriesManager
 {
-    public static IServiceCollection addRepositories(this IServiceCollection services)
+    public static IServiceCollection AddRepositories(this IServiceCollection services)
     {
         services.AddScoped<IUserRepository, UserRepository>();
 

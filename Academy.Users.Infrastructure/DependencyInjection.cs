@@ -8,7 +8,7 @@ public static class DependencyInjection
 {
     public static IServiceCollection addInfrastructureService(this IServiceCollection services)
     {
-        RepositoriesManager.addRepositories(services);
+        RepositoriesManager.AddRepositories(services);
 
         return services; 
     }
